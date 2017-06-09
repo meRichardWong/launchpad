@@ -7,8 +7,12 @@ img {
 }
 
 button{
-	width: 60px;
-	height: 60px;
+	width: 70px;
+	height: 70px;
+	background-color: #C0C0C0;
+	/*border: solid 1px #000;*/
+
+	border-radius: 50%;
 }
 
 .center {
@@ -20,13 +24,13 @@ button{
 	display: flex;
 	flex-direction: column;
 	width: 20%;
-	/*width: 240px;*/
+	align-items: center;
 }
 
 .row {  
-	background-color: red;
+	background-color: #d3d3d3;
 	display: flex;
 	flex-direction: horizontal;
-	justify-content: space-between;
+	justify-content: space-around;
 
 }
