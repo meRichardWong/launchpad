@@ -1,5 +1,29 @@
-
-
-body {
+.body {
 	background-color: red;
 }
+
+img {
+	width: 60px;
+}
+
+.buttonGrid {
+	display: flex;
+	flex-direction: column;
+}
+
+.row1 {  
+	background-color: red;
+	display: flex;
+	flex-direction: horizontal;
+}
+.row2 {
+	background-color: blue;
+
+}.row3 {
+	background-color: green;
+
+}.row4 {
+	background-color: yellow ;
+}
+
+
