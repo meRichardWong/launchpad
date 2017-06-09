@@ -13,7 +13,25 @@ button{
 	/*border: solid 1px #000;*/
 
 	border-radius: 50%;
+    text-decoration: none;
+    outline: none;
+    opacity: 0.9;
+
 }
+
+button:hover {
+	cursor: pointer;
+	transition: 0.22s;
+	background-color: #3e8e41;
+
+}
+
+button:active {
+  /*background-color: #3e8e41;*/
+  /*box-shadow: 0.1px 1px #666;*/
+  /*transform: translateY(2px);*/
+}
+
 
 .center {
 	margin: 0 auto;
